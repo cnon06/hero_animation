@@ -14,6 +14,20 @@ class screen1 extends StatelessWidget {
         child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Hero(
+                    tag: "cnon",
+                    child: SizedBox(
+                      width: 100,
+                      child: Image.asset('images/pen.png'
+                      ),
+                    ),
+                  ),
+                  Text("C-NON",style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),),
+                ],
+              ),
               TextButton(
                   onPressed: () {
                     Navigator.pop(context);

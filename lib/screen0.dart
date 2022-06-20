@@ -14,18 +14,22 @@ class screen0 extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
          children: [
+           Hero(
+             tag: "cnon",
+             child: SizedBox(
+               width: 200,
+               child: Image.asset('images/pen.png'
+               ),
+             ),
+           ),
+           //Image(),
            TextButton(
                onPressed: () {
                   Navigator.pushNamed(context, '/first');
                },
                child: Text("Screen1")
            ),
-           TextButton(
-               onPressed: () {
-                 Navigator.pushNamed(context, '/second');
-               },
-               child: Text("Screen2")
-           ),
+
          ]
 
         ),
