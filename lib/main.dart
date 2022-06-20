@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:untitled43/screen0.dart';
 import 'package:untitled43/screen1.dart';
-import 'package:untitled43/screen2.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,7 +17,6 @@ class MyApp extends StatelessWidget {
       {
         '/' : (context) => screen0(),
         '/first' : (context) => screen1(),
-        '/second' : (context) => screen2(),
       },
     );
   }
